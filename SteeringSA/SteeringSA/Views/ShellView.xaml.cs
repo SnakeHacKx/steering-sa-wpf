@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SteeringSA.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +23,9 @@ namespace SteeringSA.Views
         public ShellView()
         {
             InitializeComponent();
+            DataContext = new HomeViewModel();
             this.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
+
         }
 
         private void Grid_MouseDown(object sender, MouseButtonEventArgs e)

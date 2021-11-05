@@ -6,11 +6,24 @@
         xmlns:local="clr-namespace:SteeringSA.Views"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:viewmodels="clr-namespace:SteeringSA.ViewModels"
+        xmlns:views="clr-namespace:SteeringSA.Views"
         xmlns:cal="http://www.caliburnproject.org"
         mc:Ignorable="d"
         Title="ShellView" Height="768" Width="1366" FontFamily="Poppins"
         WindowStartupLocation="CenterScreen" WindowState="{Binding CurrentWindowState, Mode=TwoWay}"
         WindowStyle="None" x:Name="MainWindow" ResizeMode="CanResize" AllowsTransparency="False" SizeChanged="MainWindow_SizeChanged">
+
+    <!--#region ADMINISTRACION DE PANTALLAS -->
+
+    <Window.Resources>
+        <DataTemplate x:Name="LoginViewTemplate"
+                      DataType="{x:Type viewmodels:LoginViewModel}">
+            <views:LoginView DataContext="{Binding}"/>
+        </DataTemplate>
+    </Window.Resources>
+
+    <!--#endregion-->
+
     <Border Name="MainWindowBorder">
         <Grid>
             <Grid.RowDefinitions>
@@ -74,13 +87,17 @@
             <!--#endregion-->
 
             <!--#region BOTTOM HEADER -->
-            <Border Grid.Row="1" BorderThickness="0 0 0 2" BorderBrush="{StaticResource DarkenGray}">
+            <Border Grid.Row="1" BorderThickness="0 0 0 0" BorderBrush="{StaticResource DarkenGray}">
                 <Grid  Name="Header" Background="Transparent" Height="auto">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
+
+                    <Button x:Name="ChangeViewTo" Margin="100 0 0 0">
+                        Cambiar Vista
+                    </Button>
 
                     <materialDesign:PackIcon Kind="Image"
                                          Grid.Column="0"
@@ -89,11 +106,13 @@
                                          Style="{StaticResource S_Icon_LargeIcon}"/>
 
                     <!-- TITULO -->
-                    <TextBlock Grid.Column="1"
+                    <TextBlock 
+                               Text="{Binding WindowTitle, Mode=TwoWay}"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="3"
                                Style="{StaticResource S_TextBlock_Title}"
                                HorizontalAlignment="Center"
-                               VerticalAlignment="Center"
-                               Text="Inicio"/>
+                               VerticalAlignment="Center"/>
 
                     <!-- NOMBRE DE USUARIO -->
                     <WrapPanel Grid.Column="2 "
@@ -130,11 +149,10 @@
             <!--#endregion-->
             <!--#endregion-->
 
-            <Image Grid.Row="2" Stretch="UniformToFill" Source="../Images/Background-Blur-White-FHD.png">
-                
-            </Image>
+            <Image Grid.Row="2" Stretch="UniformToFill" Source="../Images/Background-Blur-White-FHD.png"/>
 
             <ContentControl Grid.Row="2" x:Name="ActiveItem"/>
+            <!--<ContentControl Grid.Row="2" Content="{Binding}" Grid.RowSpan="2"/>-->
         </Grid>
     </Border>
 </Window>

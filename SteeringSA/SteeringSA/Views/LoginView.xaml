@@ -5,42 +5,52 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:SteeringSA.Views"
              mc:Ignorable="d" FontFamily="Poppins"
-             d:DesignHeight="450" d:DesignWidth="800" Background="White">
+             d:DesignHeight="768" d:DesignWidth="1366" Background="Transparent">
+
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        <Image Grid.Row="0" Grid.RowSpan="2" Stretch="UniformToFill" Source="../Images/bg_login.png"/>
 
         <!--#region FORMULARIO -->
-        <Border Padding="20 20" Margin="0 50" Background="{StaticResource PaleGray}"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center"
+        <StackPanel HorizontalAlignment="Center"
+                VerticalAlignment="Center" Margin="0 0 0 50">
+            <Border Padding="20 20" Margin="0 50" Background="{StaticResource PaleGray}"
                 Width="auto"
                 CornerRadius="10">
-            <StackPanel>
-                <!-- CORREO ELECTRONICO -->
-                <TextBlock Text="Correo Electrónico:" Margin="0 0 0 10" Style="{StaticResource ResourceKey=S_TextBlock_Body}" />
-                <Border Style="{StaticResource S_Border_TextBox}" Margin="0 0 0 30">
-                    <TextBox Width="300" Style="{StaticResource Txt}"/>
-                </Border>
+                <StackPanel>
+                    <!--#region TXB CORREO ELECTRONICO -->
+                    <TextBlock Text="Correo Electrónico:" Margin="0 0 0 10" Style="{StaticResource ResourceKey=S_TextBlock_Body}" />
+                    <Border Style="{StaticResource S_Border_TextBox}" Margin="0 0 0 30">
+                        <Grid Background="White" HorizontalAlignment="Right" VerticalAlignment="Top" Width="auto" >
+                            <TextBlock Text="ejemplo@ejemplo.com" 
+                                   MinWidth="300" MaxWidth="350"
+                                   Style="{StaticResource S_TextBlock_Hint}"  
+                                    Foreground="{StaticResource DarkenGray}" Visibility="{Binding ElementName=txtSearchBox, Path=Text.IsEmpty, Converter={StaticResource MyBoolToVisibilityConverter}}" IsHitTestVisible="False"/>
+                            <TextBox MinWidth="300" MaxWidth="350" Style="{StaticResource S_TextBox_Form}" Name="txtSearchBox"/>
+                        </Grid>
+                    </Border>
+                    <!--#endregion-->
 
-                <!-- CONTRA -->
-                <TextBlock Text="Contraseña:" Margin="0 0 0 10" Style="{StaticResource ResourceKey=S_TextBlock_Body}" />
-                <Border Style="{StaticResource S_Border_TextBox}">
-                    <TextBox Width="300" Style="{StaticResource S_TextBox_Form}"/>
-                </Border>
-            </StackPanel>
-        </Border>
-        <!--#endregion -->
-        
-        <!--#region BOTON INICIAR SESION -->
-        <Button Grid.Row="1" 
+                    <!--#region TXB CONTRA -->
+                    <TextBlock Text="Contraseña:" Margin="0 0 0 10" Style="{StaticResource ResourceKey=S_TextBlock_Body}" />
+                    <Border Style="{StaticResource S_Border_TextBox}" Margin="0 0 0 30">
+                        <Grid Background="White" HorizontalAlignment="Right" VerticalAlignment="Top" Width="auto" >
+                            <PasswordBox  MinWidth="300" MaxWidth="350" Style="{StaticResource S_PasswordBox_Form}"/>
+                        </Grid>
+                    </Border>
+                    <!--#endregion-->
+                </StackPanel>
+            </Border>
+
+            <!--#region BOTON INICIAR SESION -->
+            <Button  
+                x:Name="LogIn"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Center"
                 Width="180"
                 Style="{StaticResource S_Button_ConfirmButton}"
                 Content="INICIAR SESIÓN"/>
-        <!--#endregion-->
+            <!--#endregion-->
+        </StackPanel>
+        <!--#endregion -->
     </Grid>
 </UserControl>
