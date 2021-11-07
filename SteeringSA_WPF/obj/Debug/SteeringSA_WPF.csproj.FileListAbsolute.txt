@@ -70,3 +70,7 @@ C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Maintenan
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\ServicesView.g.cs
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\MaintenanceView.baml
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\ServicesView.baml
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_ClientView.g.cs
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_ClientView.baml
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_DriverView.g.cs
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_DriverView.baml

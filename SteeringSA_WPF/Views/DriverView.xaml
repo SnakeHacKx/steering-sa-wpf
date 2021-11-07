@@ -32,7 +32,8 @@
                 <!-- #region Boton Agregar  -->
                 <Button Grid.Column="1"
                         ToolTip="Agregar conductor"
-                        Name="Btn_AddClient" 
+                        Name="Btn_AddDriver" 
+                        Click="Btn_AddDriver_Click"
                         HorizontalAlignment="Right"
                         Margin="0 20 70 0"
                         Style="{StaticResource S_Button_ConfirmButton}">
@@ -97,7 +98,7 @@
             <!--#endregion-->
             
             <!--#region ROW 3-->
-
+ 
             <WrapPanel Grid.Row="2" HorizontalAlignment="Center">
                 <!--#region FILTRO TIPO DE LICENCIA -->
                 <Border Style="{StaticResource S_Border_TextBoxWithBorder}" Height="50">

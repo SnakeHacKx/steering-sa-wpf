@@ -58,6 +58,24 @@
             <views:ServicesView DataContext="{Binding}"/>
         </DataTemplate>
         <!--#endregion-->
+        
+        <!--#region PERFILES -->
+        <!--#endregion-->
+        
+        <!--#region REGISTRAR -->
+        <DataTemplate x:Name="AddClientViewTemplate"
+                      DataType="{x:Type viewmodels:Register_ClientViewModel}">
+            <views:Register_ClientView DataContext="{Binding}"/>
+        </DataTemplate>
+
+        <DataTemplate x:Name="AddDriverViewTemplate"
+                      DataType="{x:Type viewmodels:Register_DriverViewModel}">
+            <views:Register_DriverView DataContext="{Binding}"/>
+        </DataTemplate>
+        <!--#endregion-->
+        
+        <!--#region EDITAR -->
+        <!--#endregion-->
     </Window.Resources>
 
     <!--#endregion-->
@@ -136,12 +154,7 @@
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
 
-                    <materialDesign:PackIcon Kind="Image"
-                                         Grid.Column="0"
-                                             Width="60"
-                                             Height="60"
-                                         Style="{StaticResource S_Icon_LargeIcon}"/>
-
+                    <Image Grid.Column="0" Width="200" Margin="20 0 0 0" HorizontalAlignment="Left" Height="60" Stretch="Uniform" Source="../Images/logo_large.png"/>
                     <!-- TITULO -->
                     <TextBlock 
                                Name="Tb_WindowTitle"

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\App.xaml
-91418455174
+11934202990
 
-23-706237824
+27-574882746
 15327498460
-MainWindow.xaml;Views\ClientView.xaml;Views\DriverView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\MaintenanceView.xaml;Views\ReportView.xaml;Views\ServicesView.xaml;Views\VehicleView.xaml;
+MainWindow.xaml;Views\ClientView.xaml;Views\DriverView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\MaintenanceView.xaml;Views\Register_ClientView.xaml;Views\Register_DriverView.xaml;Views\ReportView.xaml;Views\ServicesView.xaml;Views\VehicleView.xaml;
 
 False
 

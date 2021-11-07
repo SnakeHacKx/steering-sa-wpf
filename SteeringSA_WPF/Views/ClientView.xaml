@@ -15,7 +15,7 @@
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-
+ 
             <!--#region ROW 1 -->
             <Grid Grid.Row="0">
                 <Button Name="Btn_GoBack"
@@ -32,6 +32,7 @@
                 <Button Grid.Column="1"
                         ToolTip="Agregar cliente"
                         Name="Btn_AddClient" 
+                        Click="Btn_AddClient_Click"
                         HorizontalAlignment="Right"
                         Margin="0 20 70 0"
                         Style="{StaticResource S_Button_ConfirmButton}">

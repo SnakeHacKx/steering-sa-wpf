@@ -83,8 +83,8 @@
 
             <Style x:Key="S_TextBlock_Faded" TargetType="TextBlock">
                 <Setter Property="Foreground" Value="{StaticResource FadedBlack}"/>
-                <Setter Property="FontWeight" Value="Regular"/>
-                <Setter Property="FontSize" Value="35"/>
+                <Setter Property="FontWeight" Value="Light"/>
+                <Setter Property="FontSize" Value="16"/>
             </Style>
 
             <Style x:Key="S_TextBlock_BigButton" TargetType="TextBlock">
