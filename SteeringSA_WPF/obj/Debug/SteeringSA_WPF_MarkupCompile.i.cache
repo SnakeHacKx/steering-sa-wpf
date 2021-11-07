@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\SnakeHacKx\Desktop\SteeringSA_WPF\SteeringSA_WPF\obj\Debug\
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\
 SteeringSA_WPF
 none
 false
 DEBUG;TRACE
-C:\Users\SnakeHacKx\Desktop\SteeringSA_WPF\SteeringSA_WPF\App.xaml
-64440967
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\App.xaml
+91418455174
 
-18314626843
-151447224726
-MainWindow.xaml;Views\ClientView.xaml;Views\DriverView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\VehicleView.xaml;
+24-1548597191
+15327498460
+MainWindow.xaml;Views\ClientView.xaml;Views\DriverView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\MaintenanceView.xaml;Views\ReportView.xaml;Views\ServicesView.xaml;Views\VehicleView.xaml;
 
-True
+False
 

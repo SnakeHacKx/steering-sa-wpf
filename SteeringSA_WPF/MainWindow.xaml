@@ -15,6 +15,7 @@
     <!--#region ADMINISTRACION DE PANTALLAS -->
 
     <Window.Resources>
+        <!--#region GENERAL -->
         <DataTemplate x:Name="LoginViewTemplate"
                       DataType="{x:Type viewmodels:LoginViewModel}">
             <views:LoginView DataContext="{Binding}"/>
@@ -24,7 +25,9 @@
                       DataType="{x:Type viewmodels:HomeViewModel}">
             <views:HomeView DataContext="{Binding}"/>
         </DataTemplate>
+        <!--#endregion-->
 
+        <!--#region VIEWS (TABLAS) -->
         <DataTemplate x:Name="ClientViewTemplate"
                       DataType="{x:Type viewmodels:ClientViewModel}">
             <views:ClientView DataContext="{Binding}"/>
@@ -39,6 +42,22 @@
                       DataType="{x:Type viewmodels:VehicleViewModel}">
             <views:VehicleView DataContext="{Binding}"/>
         </DataTemplate>
+
+        <DataTemplate x:Name="ReportiewTemplate"
+                      DataType="{x:Type viewmodels:ReportViewModel}">
+            <views:ReportView DataContext="{Binding}"/> 
+        </DataTemplate>
+
+        <DataTemplate x:Name="MaintenanceViewTemplate"
+                      DataType="{x:Type viewmodels:MaintenanceViewModel}">
+            <views:MaintenanceView DataContext="{Binding}"/>
+        </DataTemplate>
+
+        <DataTemplate x:Name="ServicesViewTemplate"
+                      DataType="{x:Type viewmodels:ServicesViewModel}">
+            <views:ServicesView DataContext="{Binding}"/>
+        </DataTemplate>
+        <!--#endregion-->
     </Window.Resources>
 
     <!--#endregion-->

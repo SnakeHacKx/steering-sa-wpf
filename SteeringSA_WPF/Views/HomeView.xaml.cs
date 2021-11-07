@@ -43,5 +43,20 @@ namespace SteeringSA_WPF.Views
         {
             WindowManager.ChangeWindow(WindowsTitle.VIEW_VEHICLES, new VehicleViewModel());
         }
+
+        private void Btn_ViewReports_Click(object sender, RoutedEventArgs e)
+        {
+            WindowManager.ChangeWindow(WindowsTitle.VIEW_REPORTS, new ReportViewModel());
+        }
+
+        private void Btn_ViewMaintenances_Click(object sender, RoutedEventArgs e)
+        {
+            WindowManager.ChangeWindow(WindowsTitle.VIEW_MAINTENANCE, new MaintenanceViewModel());
+        }
+
+        private void Btn_ViewServices_Click(object sender, RoutedEventArgs e)
+        {
+            WindowManager.ChangeWindow(WindowsTitle.VIEW_SERVICES, new ServicesViewModel());
+        }
     }
 }

@@ -8,7 +8,7 @@
              mc:Ignorable="d" FontFamily="Poppins"
              d:DesignHeight="768" d:DesignWidth="1366">
     <Grid>
-        <Image Stretch="UniformToFill" Source="../Images/bg_viewClient.png"/>
+        <Image Stretch="UniformToFill" Source="../Images/bg_views.png"/>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
