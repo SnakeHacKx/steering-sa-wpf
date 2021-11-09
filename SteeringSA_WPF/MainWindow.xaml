@@ -60,6 +60,10 @@
         <!--#endregion-->
         
         <!--#region PERFILES -->
+        <DataTemplate x:Name="ClientProfileViewTemplate"
+                      DataType="{x:Type viewmodels:ClientProfileViewModel}">
+            <views:ClientProfileView DataContext="{Binding}"/>
+        </DataTemplate>
         <!--#endregion-->
         
         <!--#region REGISTRAR -->
@@ -175,9 +179,6 @@
                                 <ColumnDefinition Width="auto"/>
                             </Grid.ColumnDefinitions>
                         </Grid>
-
-                        <materialDesign:PackIcon Kind="ThemeLightDark"  
-                                                Style="{StaticResource S_Icon_MediumIcon}"/>
 
                         <materialDesign:PackIcon Kind="User"  
                                                 Style="{StaticResource S_Icon_MediumIcon}"/>

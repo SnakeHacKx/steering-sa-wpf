@@ -32,8 +32,8 @@
 
                 <!-- #region Boton Agregar  -->
                 <Button Grid.Column="1"
-                        ToolTip="Agregar conductor"
-                        Name="Btn_AddClient" 
+                        ToolTip="Agregar vehículo"
+                        Name="Btn_AddClient"
                         HorizontalAlignment="Right"
                         Margin="0 20 70 0"
                         Style="{StaticResource S_Button_ConfirmButton}">
@@ -154,6 +154,22 @@
                             <ComboBoxItem Content="Azul" Foreground="{StaticResource Black}" />
                             <ComboBoxItem Content="Negro" Foreground="{StaticResource Black}" />
                             <ComboBoxItem Content="Morado" Foreground="{StaticResource Black}" />
+                        </ComboBox>
+                    </StackPanel>
+                </Border>
+                <!--#endregion-->
+
+                <!--#region FILTRO COMBUSTIBLE -->
+                <Border Margin="20 0 0 0" Height="50" Style="{StaticResource S_Border_TextBoxWithBorder}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource S_TextBlock_Body}"
+                                   VerticalAlignment="Center"
+                                   Text="Combustible:"/>
+                        <ComboBox Name="Cb_Fuel"
+                                  Width="120"
+                                  Style="{StaticResource S_Combobox_Normal}">
+                            <ComboBoxItem Content="Diesel" Foreground="{StaticResource Black}" />
+                            <ComboBoxItem Content="Gasolina" Foreground="{StaticResource Black}" />
                         </ComboBox>
                     </StackPanel>
                 </Border>

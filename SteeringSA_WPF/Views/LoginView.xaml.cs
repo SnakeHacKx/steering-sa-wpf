@@ -33,5 +33,12 @@ namespace SteeringSA_WPF.Views
         {
             WindowManager.ChangeWindow(WindowsTitle.HOME, new HomeViewModel());
         }
+
+        private void ViewWindowTest_Click(object sender, RoutedEventArgs e)
+        {
+            WindowManager.ChangeWindowName(WindowsTitle.ADD_REPORTS);
+            Register_ReportView addReportWindow = new Register_ReportView();
+            addReportWindow.ShowDialog();
+        }
     }
 }

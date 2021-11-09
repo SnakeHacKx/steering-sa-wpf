@@ -28,7 +28,7 @@ namespace SteeringSA_WPF.Views
 
         private void Btn_ViewProfile_Click(object sender, RoutedEventArgs e)
         {
-
+            WindowManager.ChangeWindow(WindowsTitle.PERSON_PROFILE, new ClientProfileViewModel());
         }
 
         private void Btn_GoBack_Click(object sender, RoutedEventArgs e)
@@ -39,6 +39,11 @@ namespace SteeringSA_WPF.Views
         private void Btn_AddClient_Click(object sender, RoutedEventArgs e)
         {
             WindowManager.ChangeWindow(WindowsTitle.ADD_CLIENTE, new Register_ClientViewModel());
+        }
+
+        private void Btn_RefreshDataGrid_Click(object sender, RoutedEventArgs e)
+        {
+            WindowManager.ChangeWindow(WindowsTitle.PERSON_PROFILE, new ClientProfileViewModel());
         }
     }
 }

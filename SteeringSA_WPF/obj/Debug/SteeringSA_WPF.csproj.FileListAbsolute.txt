@@ -74,3 +74,13 @@ C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_ClientView.baml
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_DriverView.g.cs
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_DriverView.baml
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_VehicleView.g.cs
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_VehicleView.baml
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_ReportView.g.cs
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_ReportView.baml
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_MaintenanceView.g.cs
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_ServicesView.g.cs
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_MaintenanceView.baml
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_ServicesView.baml
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\ClientProfileView.g.cs
+C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\ClientProfileView.baml

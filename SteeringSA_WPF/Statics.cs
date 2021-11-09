@@ -20,8 +20,9 @@ namespace SteeringSA_WPF
         public const string VIEW_REPORTS = "Reportes";
         public const string VIEW_SERVICES = "Servicios";
 
-        public const string PERSON_PROFILE = "Perfil de Persona";
-        public const string PLANT_PROFILE = "Perfil de Planta";
+        public const string PERSON_PROFILE = "Cliente";
+        public const string VEHICLE_PROFILE = "Vehículo";
+        public const string DRIVER_PROFILE = "Vehículo";
         public const string CHOOSE_PLANT_IMAGE = "Elegir Imagen de Planta";
         public const string LAND_PROFILE = "Perfil de Land";
 
@@ -59,7 +60,7 @@ namespace SteeringSA_WPF
     }
 
     /// <summary>
-    /// Contiene todos los nombres de las variables de cada tabla de la base de datos.
+    /// Contiene todos los nombres de los campos de cada tabla de la base de datos.
     /// </summary>
     public static class TableVariable
     {

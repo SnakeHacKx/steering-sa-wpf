@@ -25,5 +25,20 @@ namespace SteeringSA_WPF
                 }
             }
         }
+
+        /// <summary>
+        /// Cambia solamente el nombre de la ventana
+        /// </summary>
+        /// <param name="newWindowName">Nuevo nombre de la ventana</param>
+        public static void ChangeWindowName(string newWindowName)
+        {
+            foreach (Window window in Application.Current.Windows)
+            {
+                if (window.GetType() == typeof(MainWindow))
+                {
+                    (window as MainWindow).Tb_WindowTitle.Text = newWindowName;
+                }
+            }
+        }
     }
 }

@@ -116,6 +116,7 @@
                     <Button Grid.Column="1"
                             ToolTip="Recargar tabla y limpiar filtros"
                             Name="Btn_RefreshDataGrid"
+                            Click="Btn_RefreshDataGrid_Click"
                             Style="{StaticResource S_Button_TransparentButtonWithHand}" 
                             HorizontalAlignment="Right">
                         <materialDesign:PackIcon Kind="Refresh" 
