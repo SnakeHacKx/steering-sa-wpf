@@ -4,17 +4,26 @@
 winexe
 C#
 .cs
-C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\
 SteeringSA_WPF
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\App.xaml
 16-1824118277
 
 33575084002
 15327498460
 MainWindow.xaml;Views\ClientProfileView.xaml;Views\ClientView.xaml;Views\DriverView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\MaintenanceView.xaml;Views\Register_ClientView.xaml;Views\Register_DriverView.xaml;Views\Register_MaintenanceView.xaml;Views\Register_ReportView.xaml;Views\Register_ServicesView.xaml;Views\Register_VehicleView.xaml;Views\ReportView.xaml;Views\ServicesView.xaml;Views\VehicleView.xaml;
+=======
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\App.xaml
+11934202990
+
+27-574882746
+151574638927
+MainWindow.xaml;Views\ClientView.xaml;Views\DriverView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\MaintenanceView.xaml;Views\Register_ClientView.xaml;Views\Register_DriverView.xaml;Views\ReportView.xaml;Views\ServicesView.xaml;Views\VehicleView.xaml;
+>>>>>>> bd9a1f4c20116f9937e1d7cf52d0a76596619c4a
 
 False
 
