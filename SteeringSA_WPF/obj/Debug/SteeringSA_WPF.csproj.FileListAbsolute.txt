@@ -74,6 +74,7 @@ C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_ClientView.baml
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_DriverView.g.cs
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_DriverView.baml
+<<<<<<< HEAD
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_VehicleView.g.cs
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_VehicleView.baml
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_ReportView.g.cs
@@ -84,3 +85,48 @@ C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_ServicesView.baml
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\ClientProfileView.g.cs
 C:\Users\SnakeHacKx\uni\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\ClientProfileView.baml
+=======
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\bin\Debug\SteeringSA_WPF.exe.config
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\bin\Debug\SteeringSA_WPF.exe
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\bin\Debug\SteeringSA_WPF.pdb
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\bin\Debug\MaterialDesignColors.dll
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\bin\Debug\MaterialDesignColors.pdb
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\SteeringSA_WPF.csproj.AssemblyReference.cache
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\MainWindow.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\ClientView.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\DriverView.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\HomeView.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\LoginView.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\MaintenanceView.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_ClientView.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_DriverView.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\ReportView.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\ServicesView.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\VehicleView.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\App.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\SteeringSA_WPF_MarkupCompile.cache
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\SteeringSA_WPF_MarkupCompile.lref
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\App.baml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\MainWindow.baml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\ClientView.baml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\DriverView.baml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\HomeView.baml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\LoginView.baml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\MaintenanceView.baml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_ClientView.baml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\Register_DriverView.baml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\ReportView.baml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\ServicesView.baml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\Views\VehicleView.baml
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\SteeringSA_WPF.g.resources
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\SteeringSA_WPF.Properties.Resources.resources
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\SteeringSA_WPF.csproj.GenerateResource.cache
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\SteeringSA_WPF.csproj.CoreCompileInputs.cache
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\SteeringSA_WPF.csproj.CopyComplete
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\SteeringSA_WPF.exe
+F:\Documents\UTP\Año 3\Segundo semestre\Base de datos 2\Proyectos\Nueva carpeta\steering-sa-wpf\SteeringSA_WPF\obj\Debug\SteeringSA_WPF.pdb
+>>>>>>> bd9a1f4c20116f9937e1d7cf52d0a76596619c4a
