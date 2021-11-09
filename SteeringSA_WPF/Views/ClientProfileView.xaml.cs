@@ -39,5 +39,19 @@ namespace SteeringSA_WPF.Views
         {
             WindowManager.ChangeWindow(WindowsTitle.VIEW_CLIENTS, new ViewModels.ClientViewModel());
         }
+
+        private void Btn_AddService_Click(object sender, RoutedEventArgs e)
+        {
+            WindowManager.ChangeWindowName(WindowsTitle.ADD_REPORTS);
+            Register_ServicesView addServiceWindow = new Register_ServicesView();
+            addServiceWindow.ShowDialog();
+        }
+
+        private void Btn_AddReport_Click(object sender, RoutedEventArgs e)
+        {
+            WindowManager.ChangeWindowName(WindowsTitle.ADD_REPORTS);
+            Register_ReportView addReportWindow = new Register_ReportView();
+            addReportWindow.ShowDialog();
+        }
     }
 }

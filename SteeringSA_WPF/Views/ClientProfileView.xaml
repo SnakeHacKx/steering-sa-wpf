@@ -119,10 +119,12 @@
                                 <TextBlock Text="Servicios Soliciados"
                                        VerticalAlignment="Center"
                                        Style="{StaticResource S_TextBlock_Subtitle}"/>
-                                <materialDesign:PackIcon Kind="AddCircle"
+                                <Button Name="Btn_AddService" Click="Btn_AddService_Click" Style="{StaticResource S_Button_TransparentButtonWithHand}">
+                                    <materialDesign:PackIcon Kind="AddCircle"
                                                      Margin="10 0 0 0"
                                                      Foreground="{StaticResource White}"
                                                      Style="{StaticResource S_Icon_MediumIcon}"/>
+                                </Button>
                             </WrapPanel>
 
                             <!--#region BOTON MOSTRAR SERVICIOS -->
@@ -155,10 +157,14 @@
                                 <TextBlock Text="Reportes"
                                        VerticalAlignment="Center"
                                        Style="{StaticResource S_TextBlock_Subtitle}"/>
-                                <materialDesign:PackIcon Kind="AddCircle"
+                                <Button Name="Btn_AddReport"
+                                        Style="{StaticResource S_Button_TransparentButtonWithHand}"
+                                        Click="Btn_AddReport_Click">
+                                    <materialDesign:PackIcon Kind="AddCircle"
                                                      Margin="10 0 0 0"
                                                      Foreground="{StaticResource White}"
                                                      Style="{StaticResource S_Icon_MediumIcon}"/>
+                                </Button>
                             </WrapPanel>
 
                             <!--#region BOTON REPORTES -->

@@ -51,8 +51,6 @@
                 Style="{StaticResource S_Button_ConfirmButton}"
                 Content="INICIAR SESIÓN"/>
             <!--#endregion-->
-
-            <Button Name="ViewWindowTest" Click="ViewWindowTest_Click" Width="auto" Height="auto">PROBAR VENTANA</Button>
         </StackPanel>
         <!--#endregion -->
     </Grid>
